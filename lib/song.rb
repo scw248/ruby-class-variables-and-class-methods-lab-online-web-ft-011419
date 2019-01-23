@@ -33,7 +33,7 @@ class Song
       if hash.length == 0 || !hash[genre]
         hash[genre] = 1
       else 
-        hash[genre]++
+        hash[genre] += 1
       end
     end
       hash
@@ -45,7 +45,7 @@ class Song
       if hash.length == 0 || !hash[artist]
         hash[artist] = 1
       else 
-        hash[artist]++
+        hash[artist] += 1
       end
     end
       hash
