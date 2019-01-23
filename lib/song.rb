@@ -35,7 +35,7 @@ class Song
       else 
         hash[genre]++
       end
-    end
+      hash
   end
   
    def self.artist_count
@@ -46,7 +46,7 @@ class Song
       else 
         hash[artist]++
       end
-    end
+      hash
   end
     
 end
